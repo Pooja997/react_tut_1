@@ -4,7 +4,7 @@ import EmpItem from "./components/EmpItem";
 function App() {
   const data_arr = [
     { name: "Pooja", age: 25, address: "Solapur/Pune" },
-    { name: "Prajwal", age: 18, address: "Pune" },
+    { name: "Prajwal", age: 18, address: "Pune/Jule Solapur" },
   ];
   return (
     <div>
