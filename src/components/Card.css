@@ -1,0 +1,20 @@
+.borderCls {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: brown;
+  height: auto;
+}
+.textCss {
+  background-color: cornsilk;
+}
+.btnCls {
+  background-color: #1a73e8;
+  height: 34px;
+  width: 80px;
+  border-style: solid;
+  display: block;
+  margin-left: 50%;
+  border-radius: 5px;
+  border-color: #fff;
+  color: #fff;
+}

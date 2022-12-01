@@ -1,11 +1,18 @@
+import React, { useState } from "react";
+
 function EmpItem(props) {
-  const empname = "Pooja";
+  const [name, setName] = useState(props.name);
+
+  function clickHandler() {
+    setName("Updated!");
+    alert(props.name);
+  }
   return (
     <div>
       <span>
         <b>Emp Name :</b>
       </span>
-      <span> {props.name}</span>
+      <div> {props.name}</div>
       <br />
       <span>
         <b>Emp Age :</b>
@@ -20,6 +27,9 @@ function EmpItem(props) {
       <br /> <b>---------------------------------</b>
       <br />
       <br />
+      <button className="btnCls" onClick={clickHandler}>
+        Update
+      </button>
     </div>
   );
 }
