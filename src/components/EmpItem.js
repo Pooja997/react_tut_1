@@ -27,9 +27,9 @@ function EmpItem(props) {
       <br /> <b>---------------------------------</b>
       <br />
       <br />
-      <button className="btnCls" onClick={clickHandler}>
+      {/* <button className="btnCls" onClick={clickHandler}>
         Update
-      </button>
+      </button> */}
     </div>
   );
 }

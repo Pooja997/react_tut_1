@@ -1,7 +1,7 @@
 import "./styles.css";
 import EmpItem from "./components/EmpItem";
 import Card from "./components/Card";
-//import FormElements from "./components/FormElements";
+import EmpForm from "./components/EmpForm";
 
 function App() {
   const data_arr = [
@@ -28,6 +28,7 @@ function App() {
           age={data_arr[1].age}
         />
       </Card>
+      <EmpForm></EmpForm>
     </div>
   );
 }
