@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 
+const btnName = "Submit";
 function EmpItem(props) {
-  const [name, setName] = useState(props.name);
+  //const [btnName, setBtnName] = useState(props.name);
+  const [btnName, setBtnName] = useState("Submit");
 
   function clickHandler() {
-    setName("Updated!");
-    alert(props.name);
+    setBtnName("Button Clicked!");
+    //alert(props.name);
   }
   return (
     <div>
@@ -28,7 +30,7 @@ function EmpItem(props) {
       <br />
       <br />
       <button className="btnCls" onClick={clickHandler}>
-        Update
+        {btnName}
       </button>
     </div>
   );
